@@ -10,7 +10,7 @@ const config: WormholeConnectConfig = {
     tokens: ["EPFeth", "EPFbase", "EPFbsc", "EPFarb", "EPFsol"], // Token keys
     ui: {
         defaultInputs: {
-            fromChain: 'Ethereum', // Chain names now capitalized
+            fromChain: 'Ethereum', 
             toChain: 'Solana',
             tokenKey: 'EPFeth',
             requiredChain: 'Ethereum',
@@ -50,44 +50,44 @@ const config: WormholeConnectConfig = {
                     },
                     {
                         chain: 'Base',
-                        manager: '0x291d76ce2cF43F18cA64E70cfD71D4b81479964B', // NTT Manager Address for Base
+                        manager: '*************************', // NTT Manager Address for Base
                         token: '0x475047B17Aefe93ba9AEF423cF336253e1929208', // Token Address for EPF on Base
                         transceiver: [
                             {
-                                address: '0x1Ac26f80CdB998950412d86D3C486dFCebc537B6', // Wormhole Transceiver Address for Base
+                                address: '************************', // Wormhole Transceiver Address for Base
                                 type: 'wormhole',
                             },
                         ],
                     },
                     {
                         chain: 'Arbitrum',
-                        manager: '0x291d76ce2cF43F18cA64E70cfD71D4b81479964B', // NTT Manager Address for Arbitrum
+                        manager: '*******************************', // NTT Manager Address for Arbitrum
                         token: '0x9bd96Bc1db18E41084875C6d2B004f86d2DB75b6', // Token Address for EPF on Arbitrum
                         transceiver: [
                             {
-                                address: '0x1Ac26f80CdB998950412d86D3C486dFCebc537B6', // Wormhole Transceiver Address for Arbitrum
+                                address: '***************************', // Wormhole Transceiver Address for Arbitrum
                                 type: 'wormhole',
                             },
                         ],
                     },
                     {
                         chain: 'Solana',
-                        manager: 'nTTK5HBRwiRipsyBEPfz1kYEp8kkpsrK1341m2Aq8gs', // NTT Manager Address for Solana
+                        manager: '*******************************', // NTT Manager Address for Solana
                         token: 'GTigccQjmwEPUBDUpHyu2ud9FPsmbCjysHi8dGCRKcBv', // Token Address for EPF on Solana
                         transceiver: [
                             {
-                                address: 'Dx1KSD8fTXcvANnTciMmvhkhNELPegAEFKLQLrF3ZYMT', // Wormhole Transceiver Address for Solana
+                                address: '*******************************', // Wormhole Transceiver Address for Solana
                                 type: 'wormhole',
                             },
                         ],
                     },
                     {
                         chain: 'Bsc',
-                        manager: '0xaaC8d9703C25ca1959550D9dC4dc50dd59265491', // NTT Manager Address for BSC
+                        manager: '*******************************', // NTT Manager Address for BSC
                         token: '0xbf9e89BD70e7dBaA30d0faE636925b1A5d1C94F9', // Token Address for EPF on BSC
                         transceiver: [
                             {
-                                address: '0x4bDBC21B554Ab18c206181dB6255CB763D971A69', // Wormhole Transceiver Address for BSC
+                                address: '*******************************', // Wormhole Transceiver Address for BSC
                                 type: 'wormhole',
                             },
                         ],
@@ -97,11 +97,11 @@ const config: WormholeConnectConfig = {
         }),
     ],
     rpcs: {
-        Ethereum: 'https://mainnet.infura.io/v3/33a0f186108547c9a5f01f6a2295e668',
-        Solana: 'https://mainnet.helius-rpc.com/?api-key=09f1a735-e300-46ab-9b42-e5b6380ca0e3',
-        Arbitrum: 'https://arbitrum-mainnet.infura.io/v3/33a0f186108547c9a5f01f6a2295e668',
-        Bsc: 'https://bsc-mainnet.infura.io/v3/33a0f186108547c9a5f01f6a2295e668',
-        Base: 'https://base-mainnet.infura.io/v3/33a0f186108547c9a5f01f6a2295e668',
+        Ethereum: 'https://mainnet.infura.io/v3/************************',
+        Solana: 'https://mainnet.helius-rpc.com/************************',
+        Arbitrum: 'https://arbitrum-mainnet.infura.io/********************',
+        Bsc: 'https://bsc-mainnet.infura.io/v3/*************************',
+        Base: 'https://base-mainnet.infura.io/v3/*************************',
     },
     tokensConfig: {
         EPFeth: {
