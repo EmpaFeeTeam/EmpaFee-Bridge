@@ -39,11 +39,11 @@ const config: WormholeConnectConfig = {
                 EPFntt: [
                     {
                         chain: 'Ethereum',
-                        manager: '0x291d76ce2cF43F18cA64E70cfD71D4b81479964B', // NTT Manager Address for Ethereum
+                        manager: '*******************************', // NTT Manager Address for Ethereum
                         token: '0x6f6707c06a50fA993FB8125a8eC6541d6b113680', // Token Address for EPF on Ethereum
                         transceiver: [
                             {
-                                address: '0x1Ac26f80CdB998950412d86D3C486dFCebc537B6', // Wormhole Transceiver Address for Ethereum
+                                address: '*******************************', // Wormhole Transceiver Address for Ethereum
                                 type: 'wormhole',
                             },
                         ],
